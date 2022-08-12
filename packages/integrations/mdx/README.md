@@ -287,7 +287,7 @@ This applies a minimal Prism renderer with added support for `astro` code blocks
 
 #### Switch to a custom syntax highlighter
 
-You may want to apply your own syntax highlighter too. If your highlighter offers a remark or rehype plugin, you can flip off our syntax highlighting by setting `markdown.syntaxHighlight: false` and wiring up your plugin. For example, say you want to apply [Shiki Twoslash's remark plugin](https://www.npmjs.com/package/remark-shiki-twoslash):
+You may want to apply your own syntax highlighter too. If your highlighter offers a remark or rehype plugin, you can disable our syntax highlighting by setting `markdown.syntaxHighlight: false` and wiring up your plugin. For example, say you want to apply [Shiki Twoslash's remark plugin](https://www.npmjs.com/package/remark-shiki-twoslash):
 
 ```js
 // astro.config.mjs
